@@ -4,20 +4,20 @@
 Invoke either of the following commands if the formula is hosted at GitHub
 
 ```sh
-$ brew install klausbrunner/solarpos/<formula>
+$ brew install klausbrunner/tap/<formula>
 ```
 
 Or
 
 ```sh
-$ brew tap klausbrunner/solarpos
+$ brew tap klausbrunner/tap
 $ brew install <formula>
 ```
 
 Invoke the following command if the formula is *not* hosted at GitHub
 
 ```sh
-brew tap klausbrunner/homebrew-solarpos 
+brew tap klausbrunner/homebrew-tap 
 brew install <formula>
 ```
 
@@ -25,20 +25,20 @@ brew install <formula>
 Invoke either of the following commands if the cask is hosted at GitHub
 
 ```sh
-$ brew install --cask klausbrunner/solarpos/<cask>
+$ brew install --cask klausbrunner/tap/<cask>
 ```
 
 Or
 
 ```sh
-$ brew tap klausbrunner/solarpos
+$ brew tap klausbrunner/tap
 $ brew install --cask <cask>
 ```
 
 Invoke the following command if the cask is *not* hosted at GitHub
 
 ```sh
-brew tap klausbrunner/homebrew-solarpos 
+brew tap klausbrunner/homebrew-tap 
 brew install --cask <formula>
 ```
 

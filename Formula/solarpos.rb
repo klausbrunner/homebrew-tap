@@ -1,12 +1,12 @@
-# Generated with JReleaser 1.19.0 at 2025-08-23T06:45:35.976852355Z
+# Generated with JReleaser 1.19.0 at 2025-08-26T06:30:55.152143129Z
 
 class Solarpos < Formula
   desc "A simple command-line application to calculate topocentric solar coordinates and sunrise/sunset
         times."
   homepage "https://github.com/klausbrunner/solarpos"
-  url "https://github.com/klausbrunner/solarpos/releases/download/v0.6.0/solarpos-0.6.0.zip"
-  version "0.6.0"
-  sha256 "3e2c82080ba9f70c91ed582e55348d225406c7cb7aadd3669bf633e1d19cd981"
+  url "https://github.com/klausbrunner/solarpos/releases/download/v0.7.0/solarpos-0.7.0.zip"
+  version "0.7.0"
+  sha256 "1c8679852314763f941a73eb8f6daa10629bd64a4c120d861e9ca74661deef17"
   license "MIT"
 
   depends_on "openjdk"
@@ -18,6 +18,6 @@ class Solarpos < Formula
 
   test do
     output = shell_output("#{bin}/solarpos --version")
-    assert_match "0.6.0", output
+    assert_match "0.7.0", output
   end
 end

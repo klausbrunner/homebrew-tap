@@ -4,11 +4,11 @@ class Sunce < Formula
   version "0.2.3"
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/klausbrunner/sunce/releases/download/v0.2.3/sunce-aarch64-apple-darwin.tar.zst"
-    sha256 "0e3275de2da789fdab6058ef049c4fa73343bc77ba054da48a6f956d8a97e944"
+    sha256 "f1ebc84a6dfbc3f94ac6bfec454b5d8b481702306eed15048f659ee73f1c920c"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/klausbrunner/sunce/releases/download/v0.2.3/sunce-x86_64-unknown-linux-gnu.tar.zst"
-    sha256 "75ddb043d141f6e895e7561c26dd20a3edea9ab494d3e0ceff52213cc8f52f7d"
+    sha256 "0a4c0dcba238570bca94743c5b1aabef74a638be5ba08c87e2dff73724ae074c"
   end
   license "MIT"
 

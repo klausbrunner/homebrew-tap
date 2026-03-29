@@ -1,14 +1,14 @@
 class Sunce < Formula
   desc "High-performance command-line solar position calculator"
   homepage "https://github.com/klausbrunner/sunce"
-  version "0.3.8"
+  version "0.4.0"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/klausbrunner/sunce/releases/download/v0.3.8/sunce-aarch64-apple-darwin.tar.zst"
-    sha256 "dee3a49e02e391c188dd9a1b8520c619eecaa7da692df18945b90e4002f41c0c"
+    url "https://github.com/klausbrunner/sunce/releases/download/v0.4.0/sunce-aarch64-apple-darwin.tar.zst"
+    sha256 "1a7f0756c4e089fa3226556b98ba9a4f0b166c1226193838b6887f96e4187fd3"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/klausbrunner/sunce/releases/download/v0.3.8/sunce-x86_64-unknown-linux-gnu.tar.zst"
-    sha256 "a0f9515327c788d34ffba2522217112c649cc067210ae3dca29b910cfd58fe7e"
+    url "https://github.com/klausbrunner/sunce/releases/download/v0.4.0/sunce-x86_64-unknown-linux-gnu.tar.zst"
+    sha256 "7a30077d3c6a7ec6620d29b70d3851ae2f4b444c3cb453608dc8f39a47d4dabd"
   end
   license "MIT"
 
